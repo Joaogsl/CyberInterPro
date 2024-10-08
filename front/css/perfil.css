@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+body, html{
+    font-family: 'Raleway', sans-serif;
+    
+}
+body{
+    width: 100%;
+    height: auto;
+    background-size: cover; /*cover*/
+    color: var(--preto);
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#form_alt_senha{
+    background-color: var(--branco);
+    box-shadow: 0px 0px 5px var(--preto);
+    border-radius: 10px;
+    display: block;
+
+}
+#tit_alt_senha{
+    font-size: 1.8em;
+    font-weight: bolder;
+}
+.inputs{
+    border-bottom: 1px solid var(--cinza_escuro);
+    margin-bottom: 1em;
+}
+.icon, .insert{
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+
+}
+
+.botao:hover{
+    color: var(--branco);
+    background-color: transparent;
+}
+.botao{
+    border-radius: 35px;
+    width: 30%;
+    font-size: 15px;
+}
+#alterar{
+    border: none;
+    background-image: linear-gradient(var(--azul_claro_dg_claro), var(--azul_escuro_dg_claro));
+}
+#cancelar{
+    border: 1px solid var(--azul_claro_dg_escuro);
+    color: var(--azul_claro_dg_escuro);
+    font-weight: bolder;
+}
+.insert:focus{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+.inputs{
+    width: 21em;
+}
+
+#alt_senha{
+    font-size: 1.4em;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: transform .6s;
+}
+#alt_senha:hover{
+    transform: scale(1.05);
+}
+

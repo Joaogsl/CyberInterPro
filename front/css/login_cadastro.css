@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+body, html{
+    font-family: 'Raleway', sans-serif;
+    
+}
+body{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(var(--azul_claro_dg_escuro) 20%, var(--azul_escuro_dg_escuro) 70%);
+    background-size: cover; /*cover*/
+    color: var(--branco);
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.inputs{
+    border-bottom: 1px solid var(--branco);
+    margin-bottom: 1em;
+}
+.icon, .insert{
+    border: none;
+    border-radius: 0;
+    color: var(--branco);
+    background-color: transparent;
+
+}
+::-webkit-input-placeholder { /* Edge */
+    color: var(--branco);
+    font-weight: bolder;
+    font-size: smaller;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: smaller;
+  }
+  
+  ::placeholder {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: smaller;
+  }
+
+.termos{
+    padding-left: 2.4em;
+    margin-right: 30px;
+    font-size: smaller;
+}
+/*input[type="text"]:focus{
+    font-size: 0.8em;
+    
+}*/
+a{
+    text-decoration: none;
+    color: var(--branco);
+    font-size: smaller;
+}
+a:hover{
+    color: var(--branco);
+}
+.botao{
+    border-radius: 35px;
+    width: 35%;
+    font-size: 15px;
+}
+.insert:focus{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    color: var(--branco);
+}
+.inputs{
+    width: 21em;
+}

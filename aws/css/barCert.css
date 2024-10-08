@@ -1,0 +1,93 @@
+@import url(config.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    place-items: center;
+    min-height: 100vh; /*centro da tela*/
+    
+}
+/* Global Style */
+.width-50{
+    width: 50%;
+}
+.ml-auto{
+    margin-left: auto;
+}
+
+/* .botao{
+    padding: 0.75rem;
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: var(--azul_claro_dg_escuro);
+    text-align: center;
+    cursor: pointer;
+    border-radius: .25rem;
+}
+.btns-group{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+} */
+
+/* Progressbar */
+.progressbar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    counter-reset: step;
+    margin: 3rem 4rem 4rem;
+}
+
+.progressbar::before, .progress{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--cinza_escuro);
+    z-index: -1;
+    
+}
+.progress{
+    background-color: var(--cinza_escuro);
+    width: 0%;
+}
+.progress-step{
+    width: 2.1875rem;
+    height: 2.1875rem;
+    background-color: var(--cinza_escuro);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.progress-step::before{
+    counter-increment: step;
+    content:counter(step);
+    color: rgb(255, 255, 255);
+}
+.progress-step::after{
+    content:attr(data-title);
+    position: absolute;
+    top: calc(100% + 0.85rem);
+    font-size: 0.85rem;
+}
+.progress-step-active{
+    /* background-color: var(--azul_claro_dg_escuro);
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 100ms ease-in; */
+    background: linear-gradient(to left, var(--azul_claro_dg_escuro) 50%, var(--cinza_escuro) 50%) right;
+    background-size: 200%;
+    color: var(--azul_claro_dg_escuro);
+    font-weight: bolder;
+    transition: all 0.5s linear;
+}

@@ -1,0 +1,24 @@
+:root{
+    /*degrade escuro*/
+    --azul_escuro_dg_escuro: #003552;
+    --azul_claro_dg_escuro: #0067A2; /*- titulos*/
+    --azul_card: #5499C1; /*- card vantagens*/
+    --azul_detalhes_icone: #00A2FF;
+
+    --azul_meio: #004972;
+
+    /*degrade claro*/
+    --azul_escuro_dg_claro: #0F6191;
+    --azul_claro_dg_claro: #75B9E1;
+
+    --cinza_claro: #F2EFEF; /*- menu*/
+    --cinza_escuro: #B9B7B7; /*- frases detalhes*/
+    --cinza_medio: #CBCBCB; /*- linhas divisão*/
+
+    --preto: #000;
+    --branco: #fff;
+    --salmao: #E85952;
+
+    --line-border-fill: rgb(6, 163, 6);
+    --line-border-empty:green;
+}

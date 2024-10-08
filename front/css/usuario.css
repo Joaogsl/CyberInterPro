@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+body, html{
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    text-align: center;
+    background-color: var(--branco);
+}
+.row-as{
+    width:100%;
+}
+
+#titulo{
+    margin-left: 3.5rem;
+}
+
+.titulo{
+    color:black;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.titulo2{
+    color:black;
+}
+
+.info{
+    border:  2px solid var(--cinza_claro);
+    margin-left: 3.5rem;
+
+}
+.info-text{
+    border:1px solid white;
+}
+.info-text li{
+    color: var(--cinza_escurom);
+    background-color: var(--cinza_claro);
+}
+
+.info-text tr{
+    color: var(--cinza_escurom);
+    background-color: var(--cinza_claro);
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.form_edi{
+    padding: 6px;
+    width: 300px;
+    border-radius: 18px;
+    border: solid var(--azul_escuro_dg_escuro) 1px;
+}
+
+.td_info{
+    width: 100%;
+}
+
+.td_but{
+    width: 100%;
+    text-align: end;
+}
+
+#alterar-senha{
+    margin-left:65%;
+}
+
+
+.info-usu{
+    font-size: 1rem;
+    color:black;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.but-edi{
+    background-color: var(--azul_escuro_dg_claro);
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    border:0px;
+    border-radius: 5px;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    position: 100px;
+    text-align: end;
+}
+
+.but-edi:hover{
+    background-color: var(--azul_escuro_dg_escuro);
+}
+
+
+.but-salva{
+    background-color: var(--cinza_escurom);
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    border:0px;
+    border-radius: 5px;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    position: 100px;
+    text-align: end;
+}
+.but-salva:hover{
+    background-color: rgb(56, 56, 56);
+    color: rgb(255, 255, 255);
+}

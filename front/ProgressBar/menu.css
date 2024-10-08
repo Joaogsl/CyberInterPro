@@ -1,0 +1,100 @@
+@import url(./bootstrap.min.css);
+@import url(./config.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+
+
+/*CUSTOM*/
+body, html{
+    font-family: 'Raleway', sans-serif;
+}
+
+#header{
+    width: 100%;
+    background-color: var(--cinza_claro);
+    transition: background ease-out .2s;
+}
+#header .navbar-collapse{
+    width: auto;
+
+}
+p{
+    margin-bottom: 0;
+}
+#header .nav-link{
+    background-color: var(--cinza_claro);
+    color: black;
+    text-align: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    transition: transform .6s;
+}
+
+#header .nav-link:hover{
+    background-image: linear-gradient(var(--azul_escuro_dg_claro), var(--azul_claro_dg_claro));
+    color: white;
+    transform: scale(1.1); 
+}
+
+#entrar{
+    background-image: linear-gradient(to right, var(--azul_escuro_dg_claro), var(--azul_claro_dg_claro));
+    color: rgb(255, 255, 255);
+    border: 0;
+    width: 7em;
+    box-shadow: inset 2px 2px 6px hsla(0, 0%, 37%, 0.815);
+    transition: filter .3s;
+    transition: transform .3s;
+}
+#entrar:hover{
+    filter: brightness(95%);
+    transform: scale(1.07);
+}
+.img_prop path{
+    fill:#fff;
+}
+
+@media (max-width: 1399.98px) {
+    #header #link-vantagens{
+        margin-right: 0.8rem;
+    }  
+    .navbar-nav{
+        padding-bottom: 0;
+    }
+
+
+}
+@media (max-width: 767.98px) {
+    #header #link-home{
+        margin-top: 0.8rem;
+    }  
+    #header #lista-vantagens{
+        margin-bottom: 0.8rem;
+    }    
+    #header #link-vantagens{
+        margin-right: 0;
+    }  
+
+    #header .nav-link{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        text-align: inherit;
+    }   
+    #header .nav-link:hover{
+        transform: scale(1.05); 
+        border-radius: 10px;
+    }
+    #header .nav-link p, img{
+        display: inline-block;
+        margin: auto;
+    }
+
+}
+@media (max-width: 575px) {
+    #header .navbar-brand{
+        padding-left: 1.2rem;
+    }
+    #header #entrar{
+        margin-left: 1.2rem;
+    }
+
+}

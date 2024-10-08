@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+body, html{
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.row-as{
+    text-align: center;
+}
+
+.pdf_text{
+    color:rgb(190, 186, 186);
+    text-align: left;
+    margin-top:-10px;
+    font-size:18px;
+}
+
+#the-canvas{
+    border: 1px solid black;
+    direction: 1lr;
+}
+.but_pdf{
+    margin-top: -10px;
+}
+
+.pdf{
+    background-color: blue;
+}
+.pdf_viewer{
+    border-radius:10px;
+}
+#btn_primario{
+    background-color: var(--azul_escuro_dg_claro);
+    border: var(--azul_escuro_dg_claro);
+    border-radius: 25px;
+    width: 11em;
+    height: 2.5em;
+    transition: transform .6s;
+    margin-bottom: 3em;
+    color: white;
+}
+#btn_primario:hover{
+    transform: scale(1.05); 
+}
+
+#prox a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+
+#prox a:visited {
+    color: rgb(255, 255, 255);
+  }
+  
+
+#prox a:hover {
+    color: rgb(255, 255, 255);
+    
+  }
+  
+  /* selected link */
+#prox a:active {
+    color: rgb(255, 255, 255);
+  }
+  /* #container{
+    background-color: brown;
+  } */
+  /* #btn_insert_assi{
+    width: 14em;
+    font-size: 1.2em;
+    background-color: var(--azul_escuro_dg_claro);
+    transition: transform .6s;
+    border: 0;
+} */
+#container{
+    margin-bottom: 15em;
+}

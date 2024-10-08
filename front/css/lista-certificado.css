@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+body, html{
+    font-family: 'Raleway', sans-serif;
+    
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color: var(--branco);
+}
+.titulo{
+    color:black;
+    text-align: center;
+}
+.row-as{
+    text-align: center;
+}
+
+.row{
+    margin-top: -10px;
+}
+
+#atividades{
+    width: 100%;
+    min-height: 35em;
+    color: white;
+    padding: 30px 30px;
+    border-radius: 10px;
+    background-color: var(--cinza_claro);
+}
+#titulo{
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+.arquivos{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    vertical-align: middle;
+}
+.icone{
+    width: 80%;
+}
+.content-flex{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.content-block{
+    /* background-color: #0f916a; */
+    justify-content: center;
+    font-size: 0.9rem;
+    color: black;
+    font-weight: bold;
+}
+.dados{
+    margin: 0;
+}
+.datas{
+    font-size:0.8rem ;
+}
+#baixar_direita{
+    align-items: flex-end;
+}
+#baixar{
+    background-color: white;
+    padding: 7px;
+    border-radius: 20px;
+    background-image: linear-gradient(to left, #007ABF, #0e4e70);
+}
+#baixar a:link{
+    text-decoration: none;
+    color: white;
+}
+#baixar a:hover{
+    color: white;
+}
+#baixar a:visited{
+    color: white;
+}
+#baixar a:active{
+    color: white;
+}

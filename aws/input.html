@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>CyberInterPro API Test</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<form action="request_api_ps.php" id="input" onsubmit="" method="post">
+				<h1>Entre com os dados</h1>
+				<div class="field">
+					<label for="name">Nome/Razao Social:</label>
+					<input type="text" id="name" name="name" placeholder="Informe nome ou razao social" />
+					<small></small>
+				</div>
+				<div class="field">
+					<label for="cpf">CPF/CNPJ:</label>
+					<input type="text" id="cpf" name="cpf" placeholder="Informe CPF ou CNPJ" />
+					<small></small>
+				</div>
+				<div class="field">
+					<label for="senha">Senha:</label>
+					<input type="text" id="senha" name="senha" placeholder="Informe a senha do PFX" />
+					<small></small>
+				</div>
+				<div class="field">
+					<button type="submit" class="full">Enviar</button>
+				</div>
+			</form>
+		</div>
+		
+	</body>
+</html>

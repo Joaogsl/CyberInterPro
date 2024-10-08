@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/testes.css">
+    <title>Document</title>
+</head>
+<body>
+    <a href="#" class="btn btn-primary rounded-pill entrar border-0 d-md-inline-block d-block mb-md-0 mb-2 me-md-2">Cadastre-se</a>
+    <a href="#" class="btn btn-primary rounded-pill entrar border-0 d-md-inline-block d-block">Entrar</a>
+
+    <div class="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="onda_baixo"><path fill="#ffffff" fill-opacity="1" d="M0,256L48,245.3C96,235,192,213,288,213.3C384,213,480,235,576,234.7C672,235,768,213,864,186.7C960,160,1056,128,1152,101.3C1248,75,1344,53,1392,42.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </div>
+    <div id="onda_back">
+    </div>
+
+
+    <div class="container input-group flex-nowrap inputs" data-bs-toggle="tooltip" data-bs-title="Your password must be 8-20 characters long, contain letters, numbers and special characters." data-bs-trigger="focus" >
+        
+        <input type="text" class="form-control insert"  placeholder="Senha" aria-label="Username" aria-describedby="addon-wrapping">
+        <span class="input-group-text icon">.00</span>
+        
+    </div>
+
+        <div>
+            <ul>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+            </ul>
+        </div>
+
+        <div class="input-group flex-nowrap inputs" data-bs-toggle="tooltip" data-bs-title="Sua senha deve conter 8-20 caracteres, letras, números e caracteres especiais." data-bs-trigger="focus" >
+            <div  class="align-self-center ms-3 me-3">
+                <img src="assets/cadeado_cinza.png" alt="" srcset="">
+            </div>
+            <input type="password" class="form-control insert" id="senha"  placeholder="Senha" aria-label="Username" aria-describedby="addon-wrapping"required>
+            <div class="align-self-center ms-3 me-3" >
+                <img src="assets/olho_cinza.png" onclick="MostrarOcultarSenha()" alt="" srcset="">
+            </div>
+
+        </div>
+</body>
+</html>
+

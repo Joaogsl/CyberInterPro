@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+body, html{
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(var(--azul_claro_dg_escuro), var(--azul_escuro_dg_escuro), var(--azul_escuro_dg_escuro), var(--azul_claro_dg_escuro));
+    background-size: contain; /*cover*/
+}
+
+/*MENU - NAVBAR*/
+#header{
+    width: 100%;
+    background-color: var(--cinza_claro);
+    transition: background ease-out .2s;
+    border-top: 0px;
+}
+#header .navbar-collapse{
+    width: auto;
+
+}
+p{
+    margin-bottom: 0;
+}
+#header .nav-link{
+    color: black;
+    text-align: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    transition: transform .6s;
+}
+.seta{
+    background-image: linear-gradient(var(--azul_escuro_dg_claro), var(--azul_card),var(--azul_claro_dg_claro));
+    border-radius: 0.7rem;
+    margin-top: -1rem;
+}
+
+#header .nav-link:hover{
+    background-image: linear-gradient(var(--azul_escuro_dg_claro), var(--azul_claro_dg_claro));
+    color: rgb(255, 255, 255);
+    transform: scale(1.25); 
+}
+
+
+.entrar{
+    background-image: linear-gradient(to bottom, var(--azul_escuro_dg_claro), var(--azul_claro_dg_claro));
+    color: rgb(255, 255, 255);
+    border: 0;
+    box-shadow: inset 2px 2px 6px hsla(0, 0%, 18%, 0.815);
+    transition: filter .3s;
+    transition: transform .3s;
+}
+
+.entrar_text{
+    background-color: var(--azul_claro_dg_escuro);
+    color: #fff;
+    border:0;
+}
+#btn_menu{
+    width: 7em;
+}
+.entrar:hover{
+    filter: brightness(95%);
+    transform: scale(1.07);
+}
+.img_prop path{
+    fill:#fff;
+}
+
+@media (max-width: 1399.98px) {
+    #header #link-vantagens{
+        margin-right: 0.8rem;
+    }  
+    .navbar-nav{
+        padding-bottom: 0;
+    }
+}
+@media (max-width: 767.98px) {
+    #header #link-home{
+        margin-top: 0.8rem;
+    }  
+    #header #lista-vantagens{
+        margin-bottom: 0.8rem;
+    }    
+    #header #link-vantagens{
+        margin-right: 0;
+    }  
+
+    #header .nav-link{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        text-align: inherit;
+    }   
+    #header .nav-link:hover{
+        transform: scale(1.05); 
+        border-radius: 10px;
+    }
+    #header .nav-link p, img{
+        display: inline-block;
+        margin: auto;
+    }
+}
+@media (max-width: 991.98px) { 
+    #img_sobre{
+        width: 21em;
+    }
+}
+@media (max-width: 575px) {
+    #header .navbar-brand{
+        padding-left: 1.2em;
+    }
+    #btn_menu{
+        margin-left: 1.5em;
+        margin-bottom: 1em;
+    }
+    #navbarNav{
+        padding-top: 1em;
+    }
+
+
+}
+/*MENU - NAVBAR*/
+
+#landing{
+    position: relative;
+}
+
+#sobre, #vantagens{
+    background-color: var(--branco);
+}
+
+.titulo{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.subtitulo{
+    font-size: 1.1em;
+
+}
+#titulo_land{
+    color: var(--branco);
+}
+
+#subtitulo_land{
+    color: var(--cinza_medio);
+}
+
+#titulo_sobre{
+    color: var(--preto);
+}
+
+#subtitulo_sobre{
+    color: var(--preto);
+    text-align: justify;
+}
+span{
+    color: var(--salmao);
+}
+
+#titulo_ferra{
+    color: var(--branco);
+}
+
+#subtitulo_ferra{
+    color: var(--cinza_medio);
+}
+
+a.destaque{
+    display: block;
+    background-color: var(--azul_card);
+    color: var(--branco);
+    border-radius: 5%;
+    padding: 3em;
+    padding-top: 0.5em;
+    text-decoration: none;
+    transition: transform .3s;
+}
+a.destaque:hover{
+    background-color: var(--azul_card);
+    color: var(--branco);
+    transform: scale(1.05);
+}
+.cards{
+    width: 25em;
+    filter:drop-shadow(-4px 4px 2px var(--branco)) ;
+}
+#assina{
+    padding-top: 1.7em;
+}
+
+.card_vant{
+    background-color: rgb(255, 255, 255);
+    height: 21em;
+    width: 17em;
+    padding: 2em;
+}
+   /*#footer{
+ background-image: url('../assets/onda.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    margin: 0;
+    background-clip: border-box;
+    border: 1px solid #fdeded;
+    
+}*/
+#onda_baixo{
+    transform:rotate(180deg);
+
+}
+#copyright{
+    color: var(--branco);
+}
+#topo button{
+    width: 2.5em;
+    height: 2.5em;    
+    border: none;
+    border-radius: 20%;
+    font-size: 1em;
+    font-weight: bolder;
+    background-image: url(assets/seta.png);
+    
+}
+#topo a{
+    text-decoration: none;
+    color:  var(--branco);
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="css/cards.css">
+    <script src="js/cards.js"></script>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+</head>
+<body>
+    <div class="container">
+        <p id="chamada">
+            Como funcionam as nossas ferramentas?
+        </p>
+        <div class="d-flex flex-row justify-content-evenly align-items-center mt-4 mb-5" >
+            <div class="button_cards " ><a href="#gerador" class="links">
+                <p class="centro" >Gerador de Certificados</p></a>
+            </div>
+            <div class="button_cards "><a href="#assinador" class="links">
+                <p class="centro" id="gerador">Assinador Digital</p></a>
+            </div>
+        </div>
+        <!-- Cards Certificado -->
+        <p class="chamada2" >Gerador de Certificado Digital</p>
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image baixo" baixo>
+                                <img src="assets/cards_fundo.svg" alt="" class="card-img">
+                            </div>
+                            <div class="card-image cima" >
+                                <img src="assets/CertProg1.svg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Escolha o certificado</h2>
+                            <p class="descricao">
+                                Selecione o tipo de certificado (físico ou jurídico) que deseja gerar.
+                            </p>
+                            <div class="numero">
+                                <button class="button_num">1</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image baixo" >
+                                <img src="assets/cards_fundo.svg" alt="" class="card-img">
+                            </div>
+                            <div class="card-image cima">
+                                <img src="assets/CertProg2.svg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Insira os dados</h2>
+                            <p class="descricao">
+                                Preencha corretamente os dados solicitados no formulário e clique em "Gerar"
+                            </p>
+                            <div class="numero">
+                                <button class="button_num">2</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image baixo" >
+                                <img src="assets/cards_fundo.svg" alt="" class="card-img">
+                            </div>
+                            <div class="card-image cima">
+                                <img src="assets/CertProg3.svg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Baixe o certificado</h2>
+                            <p class="descricao">
+                                Ao clicar em "Gerar" seu certificado será gerado e poderá ser baixado
+                            </p>
+                            <div class="numero">
+                                <button class="button_num">3</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-pagination"  id="assinador"></div>
+        </div >
+
+        <!-- Cards Assinatura -->
+        <p class="chamada2 mt-4" >Assinador Digital de Arquivos</p>
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image baixo" baixo>
+                                <img src="assets/cards_fundo.svg" alt="" class="card-img">
+                            </div>
+                            <div class="card-image cima" >
+                                <img src="assets/AssiProg1.svg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Escolha o arquivo</h2>
+                            <p class="descricao">
+                                1° - Selecione o arquivo que deseja assinar</br>2° - Em seguida, clique em "Validar".
+                            </p>
+                            <div class="numero">
+                                <button class="button_num">1</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image baixo" >
+                                <img src="assets/cards_fundo.svg" alt="" class="card-img">
+                            </div>
+                            <div class="card-image cima">
+                                <img src="assets/AssiProg2.svg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Confirme o arquivo e avance</h2>
+                            <p class="descricao">
+                                Na pré-visualização, confirme o arquivo e clique em "Próximo"
+                            </p>
+                            <div class="numero">
+                                <button class="button_num">2</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image baixo" >
+                                <img src="assets/cards_fundo.svg" alt="" class="card-img">
+                            </div>
+                            <div class="card-image cima">
+                                <img src="assets/AssiProg3.svg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Escolha o certificado</h2>
+                            <p class="descricao">
+                                1° - Selecione o certificado que assinará</br>2° - Em seguida, clique em "Assinar".
+                            </p>
+                            <div class="numero">
+                                <button class="button_num">3</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image baixo" >
+                                <img src="assets/cards_fundo.svg" alt="" class="card-img">
+                            </div>
+                            <div class="card-image cima">
+                                <img src="assets/AssiProg4.svg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Baixe o arquivo assinado</h2>
+                            <p class="descricao">
+                                Pronto, agora seu arquivo está assinado, é só baixar!
+                            </p>
+                            <div class="numero">
+                                <button class="button_num">4</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</body>
+
+<!-- Swiper js -->
+<script src="js/swiper-bundle.min.js"></script>
+
+<!-- JavaScript -->
+<script src="js/cards.js"></script>
+</html>

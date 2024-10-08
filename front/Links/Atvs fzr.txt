@@ -1,0 +1,10 @@
+Vou deixar aqui as tarefas que eu tinha comentado na sala que ainda precisam ser feitas:
+
+Parte escrita:
+- PSI do site
+- Scrum aplicado no nosso projeto
+- Qualidade e teste do site
+
+
+Parte desenvolvimento:
+- Backend: desenvolver a funcionalidade da Última Atividade e Listagem de Certificado (listar todos os certificados, barra de pesquisa e filtro) 

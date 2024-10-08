@@ -1,0 +1,37 @@
+@import url(./main1.css);
+
+/*
+.entrar{
+    background-image: linear-gradient(to right, var(--azul_escuro_dg_claro), var(--azul_claro_dg_claro));
+    color: rgb(255, 255, 255);
+    border: 0;
+    width: 7em;
+    box-shadow: inset 2px 2px 6px hsla(0, 0%, 18%, 0.815);
+    transition: filter .3s;
+    transition: transform .3s;
+}
+body{
+    background-image: linear-gradient(to right, var(--azul_escuro_dg_escuro), var(--azul_claro_dg_escuro));
+}
+#onda_back{
+    background-image: url('data:image/svg+xml;charset=UTF-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="onda_baixo"><path fill="#ffffff" fill-opacity="1" d="M0,256L48,245.3C96,235,192,213,288,213.3C384,213,480,235,576,234.7C672,235,768,213,864,186.7C960,160,1056,128,1152,101.3C1248,75,1344,53,1392,42.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>');
+}
+
+#icones{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+}*/
+
+div {
+    width: 80px;
+    height: 80px;
+    background-color: skyblue;
+    transition: all .8s ease-in-out;
+  }
+  
+ div:hover {
+    transform: scale(1.7); /* Equal to scaleX(0.7) scaleY(0.7) */
+    background-color: pink;
+  }
+  

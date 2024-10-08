@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+.footer{
+    background-image: linear-gradient(var(--azul_escuro_dg_escuro), var(--azul_claro_dg_escuro));
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    color: white;
+}
+.ft-li{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.ft-a{
+    font-size: 0.85rem;
+}
+
+.ft-a:hover{
+    color: var(--salmao);
+    font-weight: bold;
+}
+
+.ft-a-1 a{
+    font-size: 0.85rem;
+    margin-left:0.3rem;
+}
+
+.ft-a-1:hover{
+    color: var(--salmao);
+    font-weight: bold;
+}
+
+.border-start{
+    border-color: aqua;
+}
+
+.row div{
+    margin-top:3rem;
+}
+
+.seta{
+    background-image: linear-gradient(var(--azul_escuro_dg_claro), var(--azul_card),var(--azul_claro_dg_claro));
+    width: 2.4rem;
+    border-radius: 0.7rem;
+    margin-top: -4rem;
+    margin-left: 4.8rem;
+}
+.text-seta{
+    color:var(--azul_card);
+    margin-top: -0.2rem;
+    font-weight: bold;
+}
+#landing{
+    margin-bottom: -20px;
+}

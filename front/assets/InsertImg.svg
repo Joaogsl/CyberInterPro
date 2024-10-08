@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="243" height="206" viewBox="0 0 243 206">
+  <defs>
+    <filter id="Retângulo_39" x="0" y="60" width="243" height="146" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Retângulo_38" x="0" y="0" width="243" height="69" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Caminho_44" x="29.215" y="153.745" width="70.298" height="33.736" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Retângulo_9" x="142" y="154" width="70" height="34" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_125" data-name="Grupo 125" transform="translate(-390 -1734)">
+    <g transform="matrix(1, 0, 0, 1, 390, 1734)" filter="url(#Retângulo_39)">
+      <rect id="Retângulo_39-2" data-name="Retângulo 39" width="213" height="116" rx="16" transform="translate(13 73)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 390, 1734)" filter="url(#Retângulo_38)">
+      <rect id="Retângulo_38-2" data-name="Retângulo 38" width="213" height="39" rx="16" transform="translate(13 13)" fill="#fff"/>
+    </g>
+    <text id="Pessoa_Física" data-name="Pessoa Física" transform="translate(453 1768)" stroke="rgba(255,255,255,0)" stroke-width="1" font-size="5" font-family="CenturyGothic, Century Gothic"><tspan x="-15.591" y="0">Pessoa Física</tspan></text>
+    <line id="Linha_18" data-name="Linha 18" x2="162.91" transform="translate(425.909 1773.182)" fill="none" stroke="#0067a2" stroke-width="1"/>
+    <path id="Icon_awesome-certificate" data-name="Icon awesome-certificate" d="M5.911,3.3l.593-.58a.307.307,0,0,0-.137-.52l-.807-.206.228-.8A.312.312,0,0,0,5.4.811l-.8.228L4.4.231a.309.309,0,0,0-.52-.137L3.3.69l-.58-.6A.309.309,0,0,0,2.2.231l-.206.808-.8-.228a.312.312,0,0,0-.382.382l.228.8L.233,2.2a.307.307,0,0,0-.137.52l.593.58L.1,3.878a.307.307,0,0,0,.137.52L1.04,4.6l-.228.8a.312.312,0,0,0,.382.382l.8-.228.206.808a.306.306,0,0,0,.52.137l.58-.593.58.593a.308.308,0,0,0,.52-.137L4.6,5.558l.8.228A.312.312,0,0,0,5.786,5.4l-.228-.8L6.366,4.4a.307.307,0,0,0,.137-.52L5.911,3.3Z" transform="translate(425.566 1762.765)" fill="none" stroke="#0067a2" stroke-width="1"/>
+    <g id="Grupo_121" data-name="Grupo 121" transform="translate(424.678 1820.51)">
+      <text id="Nome_do_Certificado" data-name="Nome do Certificado" transform="translate(38.321 5.49)" stroke="rgba(255,255,255,0)" stroke-width="1" font-size="5" font-family="CenturyGothic-Bold, Century Gothic" font-weight="700"><tspan x="-25.548" y="0">Nome do Certificado</tspan></text>
+      <path id="Caminho_47" data-name="Caminho 47" d="M35.637,23h0Z" transform="translate(0.537 8.119)" fill="#cbcbcb" opacity="0.3"/>
+      <text id="XXX.XXX.XXX-XX" transform="translate(33.321 26.49)" stroke="rgba(255,255,255,0)" stroke-width="1" font-size="5" font-family="CenturyGothic-Bold, Century Gothic" font-weight="700"><tspan x="-21.154" y="0">XXX.XXX.XXX-XX</tspan></text>
+      <text id="_.........." data-name=".........." transform="translate(25.321 47.242)" stroke="rgba(255,255,255,0)" stroke-width="1" font-size="9" font-family="CenturyGothic-Bold, Century Gothic" font-weight="700"><tspan x="-12.59" y="0">..........</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, -34.68, -86.51)" filter="url(#Caminho_44)">
+        <g id="Caminho_44-2" data-name="Caminho 44" transform="translate(35.21 159.74)" fill="#fff">
+          <path d="M 44.42995834350586 15.23560428619385 L 7.867809772491455 15.23560428619385 C 3.805190086364746 15.23560428619385 0.5 11.93042469024658 0.5 7.867804527282715 C 0.5 3.805184602737427 3.805190086364746 0.5000045299530029 7.867809772491455 0.5000045299530029 L 44.42995834350586 0.5000045299530029 C 48.49258041381836 0.5000045299530029 51.79776000976562 3.805184602737427 51.79776000976562 7.867804527282715 C 51.79776000976562 11.93042469024658 48.49258041381836 15.23560428619385 44.42995834350586 15.23560428619385 Z" stroke="none"/>
+          <path d="M 7.867801666259766 1.000004768371582 C 4.080879211425781 1.000004768371582 1 4.08088493347168 1 7.867804527282715 C 1 11.65472412109375 4.080879211425781 14.73560428619385 7.867801666259766 14.73560428619385 L 44.42995071411133 14.73560428619385 C 48.21686935424805 14.73560428619385 51.29776000976562 11.65472412109375 51.29776000976562 7.867804527282715 C 51.29776000976562 4.08088493347168 48.21686935424805 1.000004768371582 44.42995071411133 1.000004768371582 L 7.867801666259766 1.000004768371582 M 7.867801666259766 4.76837158203125e-06 L 44.42995071411133 4.76837158203125e-06 C 48.77521896362305 4.76837158203125e-06 52.29776000976562 3.522534370422363 52.29776000976562 7.867804527282715 C 52.29776000976562 12.21307468414307 48.77521896362305 15.73560428619385 44.42995071411133 15.73560428619385 L 7.867801666259766 15.73560428619385 C 3.522541046142578 15.73560428619385 0 12.21307468414307 0 7.867804527282715 C 0 3.522534370422363 3.522541046142578 4.76837158203125e-06 7.867801666259766 4.76837158203125e-06 Z" stroke="none" fill="#707070"/>
+        </g>
+      </g>
+      <text id="Limpar" transform="translate(25.321 83.49)" fill="#858585" stroke="rgba(255,255,255,0)" stroke-width="1" font-size="5" font-family="CenturyGothic, Century Gothic"><tspan x="-8.165" y="0">Limpar</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, -34.68, -86.51)" filter="url(#Retângulo_9)">
+        <rect id="Retângulo_9-2" data-name="Retângulo 9" width="52" height="16" rx="8" transform="translate(148 160)" fill="#0067a2"/>
+      </g>
+      <text id="Gerar" transform="translate(139.321 83.49)" fill="#fff" stroke="rgba(255,255,255,0)" stroke-width="1" font-size="6" font-family="CenturyGothic, Century Gothic"><tspan x="-8.42" y="0">Gerar</tspan></text>
+      <line id="Linha_19" data-name="Linha 19" x2="162.91" transform="translate(1.231 9.598)" fill="none" stroke="#9a9a9a" stroke-width="1"/>
+      <line id="Linha_20" data-name="Linha 20" x2="162.91" transform="translate(1.231 31.35)" fill="none" stroke="#9a9a9a" stroke-width="1"/>
+      <line id="Linha_21" data-name="Linha 21" x2="162.91" transform="translate(1.231 53.102)" fill="none" stroke="#9a9a9a" stroke-width="1"/>
+      <path id="Icon_awesome-id-card" data-name="Icon awesome-id-card" d="M5.734,2.25H.521A.521.521,0,0,0,0,2.771v.174H6.255V2.771A.521.521,0,0,0,5.734,2.25ZM0,6.594a.521.521,0,0,0,.521.521H5.734a.521.521,0,0,0,.521-.521v-3.3H0ZM3.823,4.074a.087.087,0,0,1,.087-.087H5.473a.087.087,0,0,1,.087.087v.174a.087.087,0,0,1-.087.087H3.909a.087.087,0,0,1-.087-.087Zm0,.7a.087.087,0,0,1,.087-.087H5.473a.087.087,0,0,1,.087.087v.174a.087.087,0,0,1-.087.087H3.909a.087.087,0,0,1-.087-.087Zm0,.7a.087.087,0,0,1,.087-.087H5.473a.087.087,0,0,1,.087.087v.174a.087.087,0,0,1-.087.087H3.909a.087.087,0,0,1-.087-.087ZM1.911,3.988a.7.7,0,1,1-.7.7A.7.7,0,0,1,1.911,3.988ZM.729,6.205a.7.7,0,0,1,.661-.48h.089a1.119,1.119,0,0,0,.864,0h.089a.7.7,0,0,1,.661.48.171.171,0,0,1-.169.215H.9A.171.171,0,0,1,.729,6.205Z" transform="translate(1.231 -0.873)" fill="#9a9a9a"/>
+      <g id="Grupo_81" data-name="Grupo 81" transform="translate(0 21.886)">
+        <path id="Icon_awesome-file-alt" data-name="Icon awesome-file-alt" d="M3.223,1.653V0H.345A.321.321,0,0,0,0,.292V5.932a.321.321,0,0,0,.345.292H5.18a.321.321,0,0,0,.345-.292V1.945H3.568A.323.323,0,0,1,3.223,1.653Zm.921,2.869a.161.161,0,0,1-.173.146H1.554a.161.161,0,0,1-.173-.146v-.1a.161.161,0,0,1,.173-.146H3.971a.161.161,0,0,1,.173.146Zm0-.778a.161.161,0,0,1-.173.146H1.554a.161.161,0,0,1-.173-.146v-.1A.161.161,0,0,1,1.554,3.5H3.971a.161.161,0,0,1,.173.146Zm0-.875v.1a.161.161,0,0,1-.173.146H1.554a.161.161,0,0,1-.173-.146v-.1a.161.161,0,0,1,.173-.146H3.971A.161.161,0,0,1,4.144,2.869ZM5.525,1.482v.074H3.683V0h.088a.38.38,0,0,1,.245.085L5.424,1.276A.27.27,0,0,1,5.525,1.482Z" transform="translate(1.613)" fill="#9a9a9a"/>
+        <g id="Retângulo_29" data-name="Retângulo 29" transform="translate(0.321 2.604)" fill="#9a9a9a" stroke="#fff9f9" stroke-width="1">
+          <rect width="8" height="2" stroke="none"/>
+          <rect x="0.5" y="0.5" width="7" height="1" fill="none"/>
+        </g>
+        <text id="CPF" transform="translate(2.321 3.604)" fill="#fff" font-size="3" font-family="ArialRoundedMTBold, Arial Rounded MT" letter-spacing="0.051em"><tspan x="-0.11" y="3">C</tspan></text>
+      </g>
+      <path id="Icon_material-lock" data-name="Icon material-lock" d="M10.931,3.772h-.352V3.123A1.7,1.7,0,0,0,8.818,1.5,1.7,1.7,0,0,0,7.057,3.123v.649H6.7a.681.681,0,0,0-.7.649V7.668a.681.681,0,0,0,.7.649h4.226a.681.681,0,0,0,.7-.649V4.422A.681.681,0,0,0,10.931,3.772ZM8.818,6.694a.681.681,0,0,1-.7-.649.707.707,0,0,1,1.409,0A.681.681,0,0,1,8.818,6.694ZM9.909,3.772H7.726V3.123a1.1,1.1,0,0,1,2.184,0Z" transform="translate(-4.306 41.414)" fill="#9a9a9a"/>
+      <path id="Icon_ionic-md-eye" data-name="Icon ionic-md-eye" d="M5.657,7.383A3.664,3.664,0,0,0,2.25,9.665a3.684,3.684,0,0,0,6.814,0A3.664,3.664,0,0,0,5.657,7.383Zm0,3.8A1.522,1.522,0,1,1,7.205,9.665,1.539,1.539,0,0,1,5.657,11.186Zm0-2.434a.913.913,0,1,0,.929.913A.924.924,0,0,0,5.657,8.752Z" transform="translate(152.176 37.826)" fill="#9a9a9a"/>
+    </g>
+    <path id="Icon_ionic-ios-arrow-dropdown-circle" data-name="Icon ionic-ios-arrow-dropdown-circle" d="M3.375,6.209A2.834,2.834,0,1,0,6.209,3.375,2.834,2.834,0,0,0,3.375,6.209Zm3.939-.591a.264.264,0,0,1,.372,0,.26.26,0,0,1,.076.185.264.264,0,0,1-.078.187L6.4,7.271a.263.263,0,0,1-.362-.008l-1.3-1.3a.263.263,0,0,1,.372-.372L6.21,6.706Z" transform="translate(577.113 1760.031)" fill="#0067a2"/>
+    <text id="Escolha_o_tipo_de_Certificado_que_deseja_emitir_" data-name="Escolha o tipo de Certificado que deseja emitir  " transform="translate(507 1742)" font-size="6" font-family="CenturyGothic, Century Gothic" letter-spacing="-0.033em"><tspan x="-65.42" y="0" xml:space="preserve">Escolha o tipo de Certificado que deseja emitir  </tspan></text>
+    <text id="Insira_os_dados_solicitados" data-name="Insira os dados solicitados" transform="translate(508 1801)" fill="#503030" font-size="6" font-family="CenturyGothic, Century Gothic" letter-spacing="-0.033em"><tspan x="-34.681" y="0">Insira os dados solicitados</tspan></text>
+  </g>
+</svg>
